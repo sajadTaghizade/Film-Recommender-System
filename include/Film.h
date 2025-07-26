@@ -1,8 +1,7 @@
 #ifndef FILM_H
 #define FILM_H
 
-#include <iostream>
-#include <string>
+#include "includes.h" 
 
 class Film {
 public:
