@@ -10,7 +10,7 @@ public:
     User(const std::string& username);
 
     void add_watched_film(const Film* film, Rating rating);
-    void print() const;
+    std::string get_username() const;
 
 private:
     std::string username;

@@ -10,6 +10,8 @@ const std::string PERFECT = "Perfect";
 const std::string AVERAGE = "Average";
 const std::string POOR = "Poor";
 const std::string NO_RATING = "";
+const char SPACE = ' ';
+
 
 
 #endif 

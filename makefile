@@ -17,14 +17,11 @@ OBJECTS = $(patsubst $(SRC_DIR)/%.cpp,$(OBJ_DIR)/%.o,$(SOURCES))
 all: $(EXECUTABLE)
 
 $(EXECUTABLE): $(OBJECTS)
-	@echo "Linking objects to create executable..."
 	$(CXX) $(CXXFLAGS) -o $@ $^
 
 $(OBJ_DIR)/%.o: $(SRC_DIR)/%.cpp
 	@mkdir -p $(OBJ_DIR)
-	@echo "Compiling $< -> $@"
 	$(CXX) $(CXXFLAGS) -c $< -o $@
 
 clean:
-	@echo "Cleaning up the project..."
 	rm -rf $(OBJ_DIR) $(EXECUTABLE)
