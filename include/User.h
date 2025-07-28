@@ -11,6 +11,9 @@ public:
 
     void add_watched_film(const Film* film, Rating rating);
     std::string get_username() const;
+    bool has_watched(const Film& film) const;
+    const std::map<const Film*, Rating>& get_watched_history() const;
+    std::string get_favorite_genre() const;
 
 private:
     std::string username;

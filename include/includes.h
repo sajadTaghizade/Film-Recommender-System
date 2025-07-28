@@ -8,5 +8,6 @@
 #include <fstream>
 #include <sstream>
 #include <memory>
-
+#include <algorithm> 
+#include <cctype>  
 #endif 

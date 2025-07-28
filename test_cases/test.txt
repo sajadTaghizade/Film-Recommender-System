@@ -1,0 +1,36 @@
+# === Genre Recommandation (No User) ===
+genre_recommandation "Comedy"
+genre_recommandation "Drama"
+genre_recommandation "Horror"
+genre_recommandation "Action"
+genre_recommandation "Science Fiction"
+
+# === Genre Recommandation (Kourosh) ===
+genre_recommandation "kourosh" "Comedy"
+genre_recommandation "kourosh" "Drama"
+genre_recommandation "kourosh" "Horror"
+
+# === Genre Recommandation (Parisa) ===
+genre_recommandation "parisa" "Comedy"
+genre_recommandation "parisa" "Drama"
+genre_recommandation "parisa" "Horror"
+    ‍
+# === Cast Recommandation (No User) ===
+cast_recommandation "Scarlett Johansson"
+cast_recommandation "Matthew McConaughey"
+cast_recommandation "Al Pacino"
+
+# === Cast Recommandation (Kourosh) ===
+cast_recommandation "kourosh" "Song Kang ho"
+cast_recommandation "kourosh" "Marlon Brando"
+cast_recommandation "kourosh" "Jim Carrey"
+
+# === Cast Recommandation (Parisa) ===
+cast_recommandation "parisa" "Ryan Gosling"
+cast_recommandation "parisa" "Vera Farmiga"
+
+# === Invalid & Control Commands ===
+genre_recommandation
+cast_recommandation "kourosh" "too" "many" "args"
+unknown_command
+exit
