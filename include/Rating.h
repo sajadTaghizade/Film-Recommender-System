@@ -3,10 +3,15 @@
 
 #include "includes.h"
 
-enum class Rating { Perfect, Average, Poor };
+enum class Rating
+{
+    Perfect,
+    Average,
+    Poor
+};
 
-Rating string_to_rating(const std::string& str);
+Rating string_to_rating(const std::string &str);
 
 std::string rating_to_string(Rating r);
 
-#endif 
+#endif

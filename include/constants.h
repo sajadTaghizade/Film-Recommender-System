@@ -30,6 +30,23 @@ const std::string NAME_SEPARATOR = ": ";
 const std::string IMDB_PREFIX = " (";
 const std::string IMDB_SUFFIX = ")";
 
+
+const std::string DESCRIPTIONS_PATH = "descriptions/";
+const std::string DESCRIPTION_EXT = ".txt";
+const std::string PLOT_SECTION_TAG = "[PLOT]";
+
+const std::string KEY_DIRECTOR = "Director";
+const std::string KEY_WRITERS = "Writers";
+const std::string KEY_COMPOSER = "Composer";
+const std::string KEY_CINEMATOGRAPHER = "Cinematographer";
+const std::string KEY_PROD_COMPANIES = "Production Companies";
+const std::string KEY_MAIN_CAST = "Main Cast";
+const std::string KEY_SEPARATOR = "::";
+
+const char CAST_DELIMITER = ';';
+
+const std::string NO_DESCRIPTION_MSG = "No description file found.";
+
 const int ARGS_WITH_USER = 2;
 const int ARGS_NO_USER = 1;
 const int GENRE_REC_COUNT = 3;
@@ -52,4 +69,4 @@ const int EFFECT_AVERAGE = 5;
 const int EFFECT_POOR = -1;
 
 
-#endif 
+#endif

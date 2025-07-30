@@ -8,6 +8,9 @@
 #include <fstream>
 #include <sstream>
 #include <memory>
-#include <algorithm> 
-#include <cctype>  
-#endif 
+#include <algorithm>
+#include <cctype>
+#include <set>
+#include <SFML/Graphics.hpp>
+#include <string>
+#endif

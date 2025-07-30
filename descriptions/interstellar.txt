@@ -1,0 +1,8 @@
+Director::Christopher Nolan
+Writers::Jonathan Nolan, Christopher Nolan
+Composer::Hans Zimmer
+Cinematographer::Hoyte van Hoytema
+Production Companies::Paramount Pictures, Warner Bros. Pictures, Legendary Pictures, Syncopy, Lynda Obst Productions
+Main Cast::Matthew McConaughey (Joseph Cooper); Anne Hathaway (Dr. Amelia Brand); Jessica Chastain (Murphy "Murph" Cooper); Michael Caine (Professor John Brand); Matt Damon (Dr. Mann)
+[PLOT]
+In a dystopian future, Earth has become uninhabitable due to catastrophic climate change, dust storms, and failing crops. Humanity is on the brink of extinction. Cooper, a former NASA pilot turned farmer, is recruited for a daring mission to travel through a newly discovered wormhole near Saturn. The goal is to find a new habitable planet for mankind. The film explores themes of love, loss, time dilation, and the survival of the human race as Cooper and his team journey into the unknown depths of space, leaving their families behind in a race against time.
